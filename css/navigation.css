@@ -1,0 +1,31 @@
+.navigation {
+    font-size: 16px;
+    text-align: center;
+}
+
+.navigation__item {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 0;
+    padding: 8px 15px;
+    background-color: #faebd7;
+    outline: #4e3c3c solid 1px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #960518e8;
+}
+
+.navigation__link:focus {
+    outline-color: currentColor;
+}
+
+.navigation__link:hover {
+    color: #f72743e8;
+}
+
+.navigation__link:active {
+    color: #056196;
+}

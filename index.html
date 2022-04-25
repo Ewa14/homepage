@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cześć, jestem Ewa! Witaj na mojej stronie</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+    <header class="section">
+        <h1 class="section__pageTitle">Nie ma zmian bez zmian</h1>
+        <div class="section__imageContainer">
+            <img class="section__image"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1nhCNECcxaQ2TyJiOMj_Iz-X8ydeXgWhljg&usqp=CAU"
+                alt="drewniane klocki z literami układającymi się w napis change/chance">
+        </div>
+        <div class="section__imageContainer">
+
+        </div>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a class="navigation__link" href="#O-mnie">Kilka słów o mnie</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#Kurs-youcode">Kurs youcode</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#Prywatnie">Okej, a prywatnie?</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#Ulubione-restauracje">Ulubione
+                    restauracje</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="section">
+            <h2 class="section__title" id="O-mnie">Kilka słów o mnie</h2>
+            <p class="section__paragraph"> Cześć, nazywam się Ewa i zawodowo dotychczas byłam związana najpierw z branżą
+                <i>hospitality</i>, a
+                póżniej
+                pracowałam w charakterze asystentki administracyjnej. W 2020 nadeszła 😱<strong>pandemia</strong>😱 <br>
+                Choć większość jej efektów była bardzo negatywna, wielu ludzi skłoniła do ewaluacji dotychczasowej
+                kariery.
+                <i>(Psst! It's me! I'm ludzie!)</i>
+            </p>
+            <p class="section__paragraph"> Ze wspomnianej wyszło mi, że praca nie sprawia mi satysfakcji i nie zapewnia
+                żadnych perspektyw rozwoju,
+                i że potrzebuję zmiany. Jak wiadomo, <em class="section__quote">nie ma zmian bez zmian.</em></p>
+        </section>
+        <section class="section">
+            <h2 class="section__title" id="Kurs-youcode">Kurs youcode</h2>
+            <p class="section__paragraph">Czy kurs youcode jest rozwiązaniem? Czas pokaże 😉 Od jakiegoś czasu robię
+                research różnych stanowisk w
+                branży IT i staram się przyswajać nowe umiejętności i oswajać przeróżne technologie. Ogromną frajdę
+                sprawia mi nauka czegoś nowego.</p>
+        </section>
+        <section class="section">
+            <h2 class="section__title" id="Prywatnie">Okej, a prywatnie?</h2>
+            <p class="section__paragraph">Uwielbiam podróże, naukę języków obcych i wszystko, co włoskie <span
+                    class="section__emoji">🍕 ☕ 🤌</span> W
+                wolnych chwilach lubię skoczyć na zumbę albo długi spacer.</p>
+            <div class="section__imageContainer">
+                <img class="section__image section__image--cropped js-italiaImage"
+                    src="https://lp-cms-production.imgix.net/2021-06/The_Colosseum_Rome.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850"
+                    alt="Koloseum w Rzymie"><br>
+                <button class="section__imageButton js-italiaButton">Pokaż pizzę!</button>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section__title" id="Ulubione-restauracje">Ulubione restauracje w Warszawie</h2>
+            <div class="table__container">
+                <table class="table">
+                    <caption class="table__caption">Tutaj dobrze zjesz!</caption>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="col">Nazwa restauracji</th>
+                        <th class="table__cell table__cell--header" scope="col">Typ kuchni</th>
+                        <th class="table__cell table__cell--header" scope="col">Dzielnica</th>
+                        <th class="table__cell table__cell--header" scope="col">Adres</th>
+                        <th class="table__cell table__cell--header" scope="col">Menu <br> (otwórz w nowej karcie)</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Pizzaiolo</th>
+                        <td class="table__cell">włoska</td>
+                        <td class="table__cell">Śródmieście Południowe</td>
+                        <td class="table__cell">ul. Krucza 16/22</td>
+                        <td class="table__cell">
+                            <a class="table__menuLink" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/pizzaiolo.krucza/menu/?ref=page_internal">
+                                Menu Pizzaiolo</a>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Little Hanoi - Asian Fusion</th>
+                        <td class="table__cell">wietnamska/fusion</td>
+                        <td class="table__cell">Śródmieście Północne</td>
+                        <td class="table__cell">ul. Szpitalna 3</td>
+                        <td class="table__cell">
+                            <a class="table__menuLink" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/littlehanoi.szpitalna3/menu">
+                                Menu Little Hanoi</a>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Pizzeria Tutti Santi</th>
+                        <td class="table__cell">włoska</td>
+                        <td class="table__cell">Śródmieście Północne</td>
+                        <td class="table__cell">ul. Królewska 18</td>
+                        <td class="table__cell">
+                            <a class="table__menuLink" target="_blank" rel="noopener noreferrer"
+                                href="http://zamow.tuttisanti.pl/">
+                                Menu Tutti Santi</a>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Arigator Ramen Shop</th>
+                        <td class="table__cell">japońska</td>
+                        <td class="table__cell">Śródmieście Południowe</td>
+                        <td class="table__cell">ul. Piękna 54</td>
+                        <td class="table__cell">
+                            <a class="table__menuLink" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/Arigator-Ramen-Shop-289559438233037/menu">
+                                Menu Arigator</a>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Chmielarnia Multitap</th>
+                        <td class="table__cell">tajsko-nepalska</td>
+                        <td class="table__cell">Środmieście Północne</td>
+                        <td class="table__cell">ul. Twarda 42</td>
+                        <td class="table__cell">
+                            <a class="table__menuLink" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/ChmielarniaMultitap/menu">
+                                Menu Chmielarnia</a>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Sushi Hachikō</th>
+                        <td class="table__cell">japońska</td>
+                        <td class="table__cell">Wola</td>
+                        <td class="table__cell">ul. Jana Kazimierza 11b/U2</td>
+                        <td class="table__cell">
+                            <a class="table__menuLink" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/SushiHachiko/menu/?ref=PROFILE_PLUS_PINNED_UNIT">
+                                Menu Sushi Hachikō</a>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Quattro Piatti</th>
+                        <td class="table__cell">włoska</td>
+                        <td class="table__cell">Mokotów</td>
+                        <td class="table__cell">ul. Stępińska 2</td>
+                        <td class="table__cell">
+                            <a class="table__menuLink" target="_blank" rel="noopener noreferrer"
+                                href="https://www.facebook.com/quattropiatti1/menu">
+                                Menu Quattro Piatti</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="section">
+            <div class="section__imageContainer"><img width="280"
+                    class="section_image section__image--disappear js-goodLuckImage"
+                    src="https://t3.ftcdn.net/jpg/03/12/44/34/360_F_312443477_5lxDV8QHzXyOwMH4FxLmU4Y93h12NZEJ.jpg"
+                    alt="obrazek z napisem Good Luck"> <br>
+                <button class="section__imageButton js-goodLuckButton">Click to wish me luck!</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">Copyright © 2022. All rights reserved.</footer>
+
+</body>
+
+</html>

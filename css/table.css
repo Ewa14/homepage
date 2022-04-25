@@ -1,0 +1,47 @@
+.table__container {
+    overflow-x: auto;
+    margin: 20px 0 30px 0;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.table__caption {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.table__cell {
+    border: #4e3c3c solid 2px;
+    text-align: center;
+    padding: 10px;
+}
+
+.table__cell--header {
+    background-color: #960518e8;
+    color: #f0f8ff;
+}
+
+.table__row:hover {
+    background-color: #faebd7;
+}
+
+.table__menuLink {
+    text-decoration: none;
+    color: #960518e8;
+}
+
+.table__menuLink:focus {
+    outline-color: currentColor;
+}
+
+.table__menuLink:hover {
+    color: #f72743e8;
+}
+
+.table__menuLink:active {
+    color: #056196;
+}
