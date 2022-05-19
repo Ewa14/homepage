@@ -1,4 +1,4 @@
-# homepage
+# Homepage
 ## Demo
 Welcome to my first homepage! Feel free to check it out [here](https://ewa14.github.io/homepage/). 
 ## Description
