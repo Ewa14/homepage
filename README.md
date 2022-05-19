@@ -10,5 +10,5 @@ It's the first website I've created as part of a learning project to become a Fr
 - Javascript
 - ES6 features (e.g. arrow functions, "const" keywords)
 ## Website preview
-![Homepage preview](https://s8.gifyu.com/images/website-preview.gif)
+![Homepage preview](images/website-preview.gif)
 
